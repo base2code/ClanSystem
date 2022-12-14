@@ -1,0 +1,15 @@
+name: ClanSystem
+main: de.base2code.clansystem.ClanSystem
+version: 0.0.31
+api-version: 1.13
+author: Base2Code
+
+softdepend:
+  - Vault
+
+commands:
+  clan:
+    description: Main Clan Command
+  clandebug:
+    description: Debug Command
+    permission: clansystem.debug
